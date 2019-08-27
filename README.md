@@ -68,7 +68,7 @@ https://yourserver:3443/ - The Cableguard Configuration Deliverer
 1. Ensure Docker and `docker-compose` are installed on your system
 2. Clone the `cableguard_api` repository `git clone https://github.com/keezel-co/cableguard_api/`
 3. Modify the `config.py` file with a connection string to your database. You can run `create_database.py` after doing this to setup all the tables.
-4. Start the docker container	`cd wpgt_api && docker-compose up --build`
+4. Start the docker container	`cd cableguard_api && docker-compose up --build`
 
 **Cableguard_CD**
 1. Ensure Docker and `docker-compose` are installed on your system
